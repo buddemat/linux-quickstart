@@ -1,3 +1,4 @@
+sudo apt install fonts-powerline -y
 sudo apt-get install zsh -y
 sudo chsh -s /usr/bin/zsh $USER # change default shell to zsh
 touch ~/.zshrc
