@@ -1,6 +1,8 @@
+sudo apt-get install git -y
 git config user.name "Matthias Budde"
 git config user.email "buddemat@users.noreply.github.com"
 git config --global alias.stat status
+git config --global alias.st status
 git config --global alias.ci commit
 git config --global init.defaultBranch main
 git config --global pull.rebase true
