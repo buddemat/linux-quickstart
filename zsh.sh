@@ -1,8 +1,11 @@
 # install packages needed for later config/plugins
 sudo apt-get install fonts-powerline -y
 sudo apt-get install ripgrep -y
+sudo apt-get install pylint -y
 sudo apt-get install fzf -y
 sudo apt-get install zsh -y
+sudo apt-get install bat -y
+
 
 # change default shell to zsh
 sudo chsh -s /usr/bin/zsh $USER 
@@ -10,10 +13,18 @@ touch ~/.zshrc
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # set theme
 sed -i 's/^ZSH_THEME=.*$/ZSH_THEME="agnoster"/' ~/.zshrc
+
 # enable auto update
 sed -i "s/^# \(zstyle ':omz:update' mode auto\)/\1/" ~/.zshrc
+
+# add alias for batcat
+sed -i "/^source \$ZSH\/oh-my-zsh.sh/aalias bat='batcat'" ~/.zshrc
+
+# enable plugin fzf
+sed -i 's/^\(plugins=(.*\))$/\1 ripgrep pylint)/' ~/.zshrc
 
 # enable plugin fzf
 sed -i '/^plugins=(.*)$/aexport DISABLE_FZF_AUTO_COMPLETION="true"' ~/.zshrc
