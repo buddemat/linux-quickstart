@@ -10,8 +10,8 @@ TEMPDIR="vimrc-$(date +"%Y-%m-%d_%H%M%S")"
 mkdir $TEMPDIR
 
 # get basic vimrc and vimplug section from github
-wget https://raw.githubusercontent.com/buddemat/vimrc/main/vimrc --output-document=$TEMPDIR/vimrc
-wget https://raw.githubusercontent.com/buddemat/vimrc/main/vimplug --output-document=$TEMPDIR/vimplug
+wget https://raw.githubusercontent.com/buddemat/vimrc/main/vimrc.vim --output-document=$TEMPDIR/vimrc
+wget https://raw.githubusercontent.com/buddemat/vimrc/main/vimplug.vim --output-document=$TEMPDIR/vimplug
 
 # concat the two
 cat $TEMPDIR/vimplug $TEMPDIR/vimrc >> $TEMPDIR/vimcat
