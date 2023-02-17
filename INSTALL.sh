@@ -10,3 +10,5 @@ sudo apt-get upgrade -y
 ./git-config.sh
 ./zsh.sh
 ./vim.sh
+
+./keybindings.sh
