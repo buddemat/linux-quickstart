@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # install packages needed for later config/plugins
 sudo apt-get install fonts-powerline -y
 sudo apt-get install ripgrep -y

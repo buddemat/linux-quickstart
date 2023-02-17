@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # update everything first
 sudo apt-get update
 sudo apt-get upgrade -y

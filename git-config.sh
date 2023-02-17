@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 sudo apt-get install git -y
 git config user.name "Matthias Budde"
 git config user.email "buddemat@users.noreply.github.com"
