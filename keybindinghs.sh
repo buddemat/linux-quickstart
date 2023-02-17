@@ -7,7 +7,7 @@ if (dpkg-query -W -f='${Status}' tilix 2>/dev/null | grep -c "ok installed"); th
     dconf write /org/cinnamon/desktop/keybindings/custom-list "['custom0']"
     dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/custom0/command "'tilix --quake'"
     dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/custom0/name "'tilixquake'"
-    dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/custom0/binding "['<Control>Escape']"
+    dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/custom0/binding "['<Control>Above_Tab']"
 fi
 
 # xkill keybinding for ctrl + alt + escape
