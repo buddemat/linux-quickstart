@@ -9,5 +9,8 @@ wget https://repo.anaconda.com/archive/$FILENAME -O $FILENAME
 #install
 bash $FILENAME -b
 rm $FILENAME
-#init zsh
-~/bin/conda init zsh
+
+#init 
+~/anaconda3/bin/conda init bash
+~/anaconda3/bin/conda init zsh
+
