@@ -11,4 +11,6 @@ sudo apt-get upgrade -y
 ./zsh.sh
 ./vim.sh
 
+./anaconda.sh
+
 ./keybindings.sh
