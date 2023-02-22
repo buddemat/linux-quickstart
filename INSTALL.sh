@@ -13,4 +13,6 @@ sudo apt-get upgrade -y
 
 ./anaconda.sh
 
+./fonts.sh
+
 ./keybindings.sh
