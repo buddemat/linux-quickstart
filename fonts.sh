@@ -8,4 +8,4 @@ git clone https://github.com/hbin/top-programming-fonts
 cd top-programming-fonts
 bash install.sh
 cd -
-rm -r top-programming-fonts
+yes | rm -r top-programming-fonts
