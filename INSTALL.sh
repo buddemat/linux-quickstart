@@ -16,3 +16,5 @@ sudo apt-get upgrade -y
 ./fonts.sh
 
 ./keybindings.sh
+
+./applications.sh
