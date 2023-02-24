@@ -13,6 +13,8 @@ sudo apt-get upgrade -y
 
 ./anaconda.sh
 
+./docker.sh
+
 ./fonts.sh
 
 ./keybindings.sh
