@@ -20,3 +20,5 @@ sudo apt-get upgrade -y
 ./keybindings.sh
 
 ./applications.sh
+
+sudo apt autoremove -y
