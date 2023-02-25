@@ -19,6 +19,8 @@ sudo apt-get upgrade -y
 
 ./keybindings.sh
 
+./bt-headset-udev.sh
+
 ./applications.sh
 
 sudo apt autoremove -y
