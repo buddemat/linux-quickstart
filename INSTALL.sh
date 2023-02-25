@@ -20,6 +20,7 @@ sudo apt-get upgrade -y
 ./keybindings.sh
 
 ./bt-headset-udev.sh
+./gtk-config.sh
 
 ./applications.sh
 
