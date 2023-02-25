@@ -14,6 +14,7 @@ sudo apt-get upgrade -y
 ./anaconda.sh
 
 ./docker.sh
+./additional-tools.sh
 
 ./fonts.sh
 
