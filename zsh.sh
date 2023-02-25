@@ -26,7 +26,7 @@ sed -i "s/^# \(zstyle ':omz:update' mode auto\)/\1/" ~/.zshrc
 sed -i "/^# alias/aalias bat='batcat'" ~/.zshrc
 
 # add vte fix for tilix (see https://gnunn1.github.io/tilix-web/manual/vteconfig/)
-echo "\n#vte fix for tilix (see https://gnunn1.github.io/tilix-web/manual/vteconfig/)\nif [ \$TILIX_ID ] || [ \$VTE_VERSION ]; then\n        source /etc/profile.d/vte.csh\nfi" >> ~/.zshrc
+echo "\n#vte fix for tilix (see https://gnunn1.github.io/tilix-web/manual/vteconfig/)\nif [ \$TILIX_ID ] || [ \$VTE_VERSION ]; then\n        source /etc/profile.d/vte-2.91.sh\nfi" >> ~/.zshrc
 
 # enable plugin fzf
 sed -i 's/^\(plugins=(.*\))$/\1 ripgrep pylint)/' ~/.zshrc
