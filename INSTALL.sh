@@ -19,6 +19,7 @@ sudo apt-get upgrade -y
 ./fonts.sh
 
 ./keybindings.sh
+./sysconfig.sh
 
 ./bt-headset-udev.sh
 ./gtk-config.sh

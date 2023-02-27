@@ -19,6 +19,7 @@ mint / ubuntu
 ├── INSTALL.sh            # global installation script that calls all others
 ├── keybindinghs.sh       # configure custom keybindings
 ├── README.md             # this file
+├── sysconfig.sh          # change system configuration
 ├── tilix.sh              # install tilix
 ├── vim.sh                # install vim and plugins
 └── zsh.sh                # install zsh/oh-my-zsh and plugins
