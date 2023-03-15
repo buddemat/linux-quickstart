@@ -7,6 +7,9 @@ sudo apt-get install qgis -y
 
 ## Flatpack
 
+#Postman
+flatpak install flathub com.getpostman.Postman
+
 #Zoom
 flatpak install flathub us.zoom.Zoom
 
