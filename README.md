@@ -18,6 +18,7 @@ mint / ubuntu
 ├── gtk-config.sh         # configure select GTK applications
 ├── INSTALL.sh            # global installation script that calls all others
 ├── keybindinghs.sh       # configure custom keybindings
+├── powermgmt.sh          # change power management options
 ├── README.md             # this file
 ├── sysconfig.sh          # change system configuration
 ├── tilix.sh              # install tilix
