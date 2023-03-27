@@ -7,6 +7,9 @@ sudo apt-get install qgis -y
 
 ## Flatpack
 
+#Handbrake
+flatpak install flathub fr.handbrake.ghb
+
 #Postman
 flatpak install flathub com.getpostman.Postman
 
