@@ -8,6 +8,8 @@ sed -i 's/^Exec=\(.*\)$/Exec=env GTK_THEME=Mint-Y-Aqua \1/' ~/.local/share/appli
 # Libre Office (all)
 for fname in /usr/share/applications/libreoffice-*.desktop; do
     cp $fname ~/.local/share/applications
+done
+for fname in ~/.local/share/applications/libreoffice-*.desktop; do
     sed -i 's/^Exec=\(.*\)$/Exec=env GTK_THEME=Mint-Y-Aqua \1/' $fname
 done
 
