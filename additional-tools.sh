@@ -7,5 +7,5 @@ sudo apt-get install imagemagick -y
 
 # node + elasticdump
 sudo apt-get install -y nodejs npm
-npm install elasticdump -g
+sudo npm install elasticdump -g
 
