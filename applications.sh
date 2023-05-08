@@ -7,13 +7,16 @@ sudo apt-get install qgis -y
 
 ## Flatpack
 
-#Handbrake
+# Handbrake
 flatpak install flathub fr.handbrake.ghb
 
-#Postman
+# Postman
 flatpak install flathub com.getpostman.Postman
 
-#Zoom
+# dbeaver
+flatpak install flathub io.dbeaver.DBeaverCommunity
+
+# Zoom
 flatpak install flathub us.zoom.Zoom
 
 # MS Teams
