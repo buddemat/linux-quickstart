@@ -26,4 +26,4 @@ conda create -n dev-std-env python=3.10 anaconda
 conda activate dev-std-env
 pip3 install togglwrapper  
 yes | conda install -n dev-std-env jira
-
+yes | conda install -n dev-std-env future
