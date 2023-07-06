@@ -19,8 +19,8 @@ flatpak install flathub io.dbeaver.DBeaverCommunity
 # Zoom
 flatpak install flathub us.zoom.Zoom
 
-# MS Teams
-flatpak install flathub com.microsoft.Teams
+# MS Teams is deprecated
+#flatpak install flathub com.microsoft.Teams
 
 # RocketChat
 flatpak install flathub chat.rocket.RocketChat
