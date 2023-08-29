@@ -24,3 +24,6 @@ flatpak install flathub us.zoom.Zoom
 
 # RocketChat
 flatpak install flathub chat.rocket.RocketChat
+
+# Shotcut
+flatpak install flathub org.shotcut.Shotcut
