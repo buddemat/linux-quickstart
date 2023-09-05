@@ -9,3 +9,5 @@ sudo apt-get install imagemagick -y
 sudo apt-get install -y nodejs npm
 sudo npm install elasticdump -g
 
+# nmap
+sudo apt-get install -y nmap
