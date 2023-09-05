@@ -11,3 +11,6 @@ sudo npm install elasticdump -g
 
 # nmap
 sudo apt-get install -y nmap
+
+# wireguard
+sudo apt-get install -y wireguard
