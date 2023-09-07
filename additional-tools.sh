@@ -14,3 +14,6 @@ sudo apt-get install -y nmap
 
 # wireguard
 sudo apt-get install -y wireguard
+
+# traceroute
+sudo apt-get install -y traceroute
