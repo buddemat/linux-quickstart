@@ -22,8 +22,12 @@ yes | conda update conda
 
 # create standard virtual environment, Python 3.11 not yet available
 conda create -n dev-std-env python=3.10 anaconda
-#install additional packages
+# install additional packages
 conda activate dev-std-env
 pip3 install togglwrapper  
 yes | conda install -n dev-std-env jira
 yes | conda install -n dev-std-env future
+
+# pip tools
+pip install pdfCropMargins --upgrade
+
