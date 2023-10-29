@@ -28,6 +28,12 @@ pip3 install togglwrapper
 yes | conda install -n dev-std-env jira
 yes | conda install -n dev-std-env future
 
+# install flask
+yes | conda install -n dev-std-env flask
+yes | conda install -n dev-std-env python-dotenv
+yes | conda install -n dev-std-env flask-wtf
+
+
 # pip tools
 pip install pdfCropMargins --upgrade
 
