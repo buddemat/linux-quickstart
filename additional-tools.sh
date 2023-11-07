@@ -17,3 +17,6 @@ sudo apt-get install -y wireguard
 
 # traceroute
 sudo apt-get install -y traceroute
+
+# nginx
+sudo apt-get install -y nginx
