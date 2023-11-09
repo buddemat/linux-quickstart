@@ -37,3 +37,5 @@ yes | conda install -n dev-std-env flask-wtf
 # pip tools
 pip install pdfCropMargins --upgrade
 
+pip install grip
+

@@ -1,7 +1,9 @@
 # shell tree command
 sudo apt-get install tree -y
 # Markdown preview
-sudo apt-get install grip -y
+#sudo apt-get install grip -y
+# better: pip version, moved to other file 
+
 # Imagemagick
 sudo apt-get install imagemagick -y
 
