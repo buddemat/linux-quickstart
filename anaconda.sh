@@ -33,6 +33,8 @@ yes | conda install -n dev-std-env flask
 yes | conda install -n dev-std-env python-dotenv
 yes | conda install -n dev-std-env flask-wtf
 
+# install pdoc
+yes | conda install -n dev-std-env pdoc3
 
 # pip tools
 pip install pdfCropMargins --upgrade
