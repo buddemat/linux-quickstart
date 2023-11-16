@@ -22,3 +22,6 @@ sudo apt-get install -y traceroute
 
 # nginx
 sudo apt-get install -y nginx
+
+# GDAL
+sudo apt-get install -y libgdal-dev
