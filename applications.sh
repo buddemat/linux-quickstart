@@ -29,3 +29,6 @@ flatpak install flathub chat.rocket.RocketChat
 
 # Shotcut
 flatpak install flathub org.shotcut.Shotcut
+
+# Audacity
+flatpak install flathub org.audacityteam.Audacity
