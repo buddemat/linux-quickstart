@@ -9,6 +9,9 @@ sudo apt-get install qgis -y
 
 ## Flatpack
 
+# Flatseal flatpak app permission manager
+flatpak install flathub com.github.tchx84.Flatseal
+
 # Handbrake
 flatpak install flathub fr.handbrake.ghb
 
