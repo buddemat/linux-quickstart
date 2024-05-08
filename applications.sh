@@ -5,7 +5,10 @@ sudo apt-get install gimp -y
 sudo apt-get install inkscape -y
 
 # LaTeX
-sudo apt install texlive-latex-base -y
+sudo apt-get install texlive-latex-base -y
+sudo apt-get install texlive-latex-recommended -y
+sudo apt-get install texlive-latex-extra -y
+sudo apt-get install texlive-lang-german -y
 
 # QGIS, installs a lot of dependencies
 sudo apt-get install qgis -y
