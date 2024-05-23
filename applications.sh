@@ -41,3 +41,6 @@ flatpak install flathub org.shotcut.Shotcut
 
 # Audacity
 flatpak install flathub org.audacityteam.Audacity
+
+# Opera
+flatpak install flathub com.opera.Opera
