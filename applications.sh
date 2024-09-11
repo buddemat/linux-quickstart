@@ -44,3 +44,7 @@ flatpak install flathub org.audacityteam.Audacity
 
 # Opera
 flatpak install flathub com.opera.Opera
+
+# Xournal++ 
+flatpak install flathub com.github.xournalpp.xournalpp
+
