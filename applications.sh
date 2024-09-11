@@ -46,5 +46,5 @@ flatpak install flathub org.audacityteam.Audacity
 flatpak install flathub com.opera.Opera
 
 # Xournal++ 
-flatpak install flathub com.github.xournalpp.xournalpp
+sudo apt-get install xournalpp -y
 
