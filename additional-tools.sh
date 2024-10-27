@@ -36,3 +36,7 @@ rm kubectl kubectl.sha256
 # hadolint (linter for Dockerfiles)
 sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/latest/download/hadolint-Linux-x86_64
 sudo chmod +x /bin/hadolint
+
+# exiftool
+sudo apt-get install -y exiftool
+
