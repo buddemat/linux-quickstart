@@ -35,6 +35,7 @@ flatpak install flathub us.zoom.Zoom
 
 # RocketChat
 flatpak install flathub chat.rocket.RocketChat
+flatpak override chat.rocket.RocketChat --user --filesystem=/home/:ro
 
 # Shotcut
 flatpak install flathub org.shotcut.Shotcut
