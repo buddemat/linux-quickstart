@@ -48,3 +48,5 @@ flatpak install flathub com.opera.Opera
 # Xournal++ 
 sudo apt-get install xournalpp -y
 
+# draw.io
+flatpak install flathub com.jgraph.drawio.desktop
