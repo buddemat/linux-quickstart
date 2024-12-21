@@ -1,6 +1,8 @@
 
 # Image editing
-sudo apt-get install gimp -y
+#sudo apt-get install gimp -y
+flatpak install flathub org.gimp.GIMP
+flatpak install flathub org.gimp.GIMP.Plugin.GMic/x86_64/2-40
 
 sudo apt-get install inkscape -y
 
