@@ -31,6 +31,9 @@ flatpak install flathub io.dbeaver.DBeaverCommunity
 
 # Zoom
 flatpak install flathub us.zoom.Zoom
+# workaround to fix blank schreens in Zoom app, see https://github.com/flathub/us.zoom.Zoom/issues/364
+sudo flatpak override --env=ZYPAK_ZYGOTE_STRATEGY_SPAWN=0 us.zoom.Zoom
+
 
 # MS Teams is deprecated
 #flatpak install flathub com.microsoft.Teams
