@@ -23,8 +23,8 @@ flatpak install flathub com.github.tchx84.Flatseal
 # Handbrake
 flatpak install flathub fr.handbrake.ghb
 
-# Postman
-flatpak install flathub com.getpostman.Postman
+# Bruno, as Postman replacement
+flatpak install flathub com.usebruno.Bruno
 
 # dbeaver
 flatpak install flathub io.dbeaver.DBeaverCommunity
