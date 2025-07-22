@@ -40,3 +40,7 @@ sudo chmod +x /bin/hadolint
 # exiftool
 sudo apt-get install -y exiftool
 
+# FLAC and mp3 support
+sudo apt-get install -y flac 
+sudo apt-get install -y lame 
+
