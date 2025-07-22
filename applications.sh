@@ -56,3 +56,6 @@ sudo apt-get install xournalpp -y
 
 # draw.io
 flatpak install flathub com.jgraph.drawio.desktop
+
+# Asunder, CD ripper
+flatpak install flathub ca.littlesvr.asunder
