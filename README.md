@@ -18,7 +18,7 @@ mint / ubuntu
 ├── INSTALL.sh            # global installation script that calls all others
 ├── keybindinghs.sh       # configure custom keybindings
 ├── powermgmt.sh          # change power management options
-├── python.sh             # install Anaconda and Python
+├── python.sh             # install Anaconda and Python, and uv
 ├── README.md             # this file
 ├── sysconfig.sh          # change system configuration
 ├── tilix.sh              # install tilix

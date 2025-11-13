@@ -41,3 +41,6 @@ pip install pdfCropMargins --upgrade
 
 pip install grip
 
+# install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
