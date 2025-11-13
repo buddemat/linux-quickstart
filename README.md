@@ -9,7 +9,6 @@ mint / ubuntu
 ```
 .
 ├── additional-tools.sh   # install additional command line tools
-├── anaconda.sh           # install Anaconda and Python
 ├── applications.sh       # install GTK applications, e.g. Gimp
 ├── bt-headset-udev.sh    # configure udev rule to auto-change pulseaudio profile
 ├── docker.sh             # install docker-ce 
@@ -19,6 +18,7 @@ mint / ubuntu
 ├── INSTALL.sh            # global installation script that calls all others
 ├── keybindinghs.sh       # configure custom keybindings
 ├── powermgmt.sh          # change power management options
+├── python.sh             # install Anaconda and Python
 ├── README.md             # this file
 ├── sysconfig.sh          # change system configuration
 ├── tilix.sh              # install tilix
