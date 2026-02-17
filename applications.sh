@@ -29,6 +29,9 @@ flatpak install flathub com.usebruno.Bruno
 # dbeaver
 flatpak install flathub io.dbeaver.DBeaverCommunity
 
+# pgadmin
+flatpak install flathub org.pgadmin.pgadmin4
+
 # Zoom
 flatpak install flathub us.zoom.Zoom
 # workaround to fix blank schreens in Zoom app, see https://github.com/flathub/us.zoom.Zoom/issues/364
