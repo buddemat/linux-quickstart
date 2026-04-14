@@ -45,6 +45,8 @@ cat liquibase-keyring.gpg | sudo tee /usr/share/keyrings/liquibase-keyring.gpg >
 echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/liquibase-keyring.gpg] https://repo.liquibase.com stable main' | sudo tee /etc/apt/sources.list.d/liquibase.list
 sudo apt-get update 
 sudo apt-get install -y liquibase
+# liquibase postgres drivers
+sudo wget -P /opt/liquibase/lib https://jdbc.postgresql.org/download/postgresql-42.7.5.jar  
 
 # hadolint (linter for Dockerfiles)
 sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/latest/download/hadolint-Linux-x86_64
