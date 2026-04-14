@@ -1,3 +1,6 @@
+# apt initial package info update
+sudo apt-get update
+
 # shell tree command
 sudo apt-get install tree -y
 # Markdown preview
@@ -6,6 +9,9 @@ sudo apt-get install tree -y
 
 # Imagemagick
 sudo apt-get install imagemagick -y
+
+# java 17
+sudo apt-get install -y openjdk-17-jdk
 
 # node / npm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
