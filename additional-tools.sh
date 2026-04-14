@@ -7,9 +7,16 @@ sudo apt-get install tree -y
 # Imagemagick
 sudo apt-get install imagemagick -y
 
-# node + elasticdump
-sudo apt-get install -y nodejs npm
-sudo npm install elasticdump -g
+# node / npm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+source ~/.bash_profile
+nvm install --lts
+
+## pnpm
+npm install -g pnpm
+
+#elasticdump
+npm install elasticdump -g
 
 # nmap
 sudo apt-get install -y nmap
