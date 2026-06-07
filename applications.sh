@@ -11,6 +11,7 @@ sudo apt-get install texlive-latex-base -y
 sudo apt-get install texlive-latex-recommended -y
 sudo apt-get install texlive-latex-extra -y
 sudo apt-get install texlive-lang-german -y
+sudo apt-get install texlive-fonts-extra -y
 
 # QGIS, installs a lot of dependencies
 sudo apt-get install qgis -y
