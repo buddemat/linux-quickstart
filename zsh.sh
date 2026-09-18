@@ -22,14 +22,11 @@ sed -i 's/^ZSH_THEME=.*$/ZSH_THEME="agnoster"/' ~/.zshrc
 # enable auto update
 sed -i "s/^# \(zstyle ':omz:update' mode auto\)/\1/" ~/.zshrc
 
-# add alias for batcat at end of file
-sed -i "/^# alias/aalias bat='batcat'" ~/.zshrc
-
 # add vte fix for tilix (see https://gnunn1.github.io/tilix-web/manual/vteconfig/)
 echo "\n#vte fix for tilix (see https://gnunn1.github.io/tilix-web/manual/vteconfig/)\nif [ \$TILIX_ID ] || [ \$VTE_VERSION ]; then\n        source /etc/profile.d/vte-2.91.sh\nfi" >> ~/.zshrc
 
 # enable plugin fzf
-sed -i 's/^\(plugins=(.*\))$/\1 ripgrep pylint)/' ~/.zshrc
+sed -i 's/^\(plugins=(.*\))$/\1 pylint)/' ~/.zshrc
 
 # enable plugin fzf
 sed -i '/^plugins=(.*)$/aexport DISABLE_FZF_AUTO_COMPLETION="true"' ~/.zshrc
@@ -46,3 +43,9 @@ sed -i 's/^\(plugins=(.*\))$/\1 zsh-autosuggestions)/' ~/.zshrc
 # install and enable plugin zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 sed -i 's/^\(plugins=(.*\))$/\1 zsh-syntax-highlighting)/' ~/.zshrc
+
+# add alias for batcat at end of file
+sed -i '$a alias bat="batcat"' ~/.zshrc
+
+# add alias for rg at end of file (always use --hidden option)
+sed -i '$a alias rg="rg --hidden"' ~/.zshrc
