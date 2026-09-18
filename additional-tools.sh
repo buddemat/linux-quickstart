@@ -10,6 +10,9 @@ sudo apt-get install tree -y
 # Imagemagick
 sudo apt-get install imagemagick -y
 
+# xclip
+sudo apt-get install xclip -y
+
 # java 17
 sudo apt-get install -y openjdk-17-jdk
 
